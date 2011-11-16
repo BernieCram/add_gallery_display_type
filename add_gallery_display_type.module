@@ -1,0 +1,12 @@
+<?php
+
+
+/**
+* Implements hook_entity_info_alter().
+*/
+function add_gallery_display_type_entity_info_alter(&$entity_info) {
+  $entity_info['node']['view modes']['gallery_display_type'] = array(
+    'label' => t('Gallery Display'),
+    'custom settings' => TRUE,
+  );
+} 

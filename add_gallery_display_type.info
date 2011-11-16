@@ -1,0 +1,4 @@
+name = Add Gallery Display Type
+description = Adds a gallery display type to the view modes in the manage display options of a content type.
+package = Example modules
+core = 7.x
